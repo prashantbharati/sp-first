@@ -16,6 +16,7 @@ const App = () => {
       <div className={classes.div7}>lol2</div>
       <div className={classes.div8}>lol2</div>
       <div className={classes.div9}>lol2</div>
+      <div className={classes.footer}>lol2</div>
     </>
   );
 };

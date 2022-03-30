@@ -20,22 +20,26 @@ export default makeStyles((theme) => ({
   },
   div5: {
     backgroundColor: "violet",
-    height: "1vh",
+    height: "75vh",
   },
   div6: {
     backgroundColor: "indigo",
-    height: "100vh",
+    height: "75vh",
   },
   div7: {
     backgroundColor: "blue",
-    height: "100vh",
+    height: "75vh",
   },
   div8: {
     backgroundColor: "green",
-    height: "100vh",
+    height: "75vh",
   },
   div9: {
     backgroundColor: "yellow",
-    height: "100vh",
+    height: "75vh",
+  },
+  footer: {
+    backgroundColor: "black",
+    height: "10vh",
   },
 }));
