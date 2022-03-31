@@ -1,13 +1,12 @@
-import { red } from "@material-ui/core/colors";
 import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles((theme) => ({
   div1: {
-    backgroundColor: "red",
+    backgroundColor: "black",
     height: "100vh",
   },
   div2: {
-    backgroundColor: "black",
+    backgroundColor: "red",
     height: "40vh",
   },
   div3: {
@@ -23,7 +22,7 @@ export default makeStyles((theme) => ({
     height: "75vh",
   },
   div6: {
-    backgroundColor: "indigo",
+    backgroundColor: "grey",
     height: "75vh",
   },
   div7: {
