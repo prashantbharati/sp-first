@@ -56,23 +56,38 @@ const App = () => {
             </div>
           </Grid>
           <Grid item xs={1}>
-            <div>
-              <Button
-                style={{
-                  color: "blue",
-                  borderWidth: 1,
-                  border: "2px solid",
-                  borderColor: "blue",
-                  textTransform: "none",
-                  width: "100px",
-                  borderRadius: "999px 999px 999px 999px",
-                }}
-                variant="outline-dark"
-                align="right"
-              >
-                Login
-              </Button>
-            </div>
+            <Button
+              style={{
+                color: "blue",
+                borderWidth: 1,
+                border: "2px solid",
+                borderColor: "blue",
+                textTransform: "none",
+                width: "100px",
+                borderRadius: "999px 999px 999px 999px",
+              }}
+              variant="outline-dark"
+              align="right"
+            >
+              Login
+            </Button>
+          </Grid>
+          <Grid item xs={1}>
+            <Button
+              style={{
+                color: "blue",
+                borderWidth: 1,
+                border: "2px solid",
+                borderColor: "blue",
+                textTransform: "none",
+                width: "100px",
+                borderRadius: "999px 999px 999px 999px",
+              }}
+              variant="contained"
+              align="right"
+            >
+              Join Scropay
+            </Button>
           </Grid>
         </Grid>
       </div>
