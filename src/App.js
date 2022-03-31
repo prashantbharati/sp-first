@@ -8,7 +8,9 @@ const App = () => {
 
   return (
     <>
-      <header>
+      <div className={classes.div1}>
+        <br />
+        <br />
         <Grid container spacing={12}>
           <Grid item={1}>
             <img
@@ -19,11 +21,11 @@ const App = () => {
             />
           </Grid>
 
-          <Grid item xs={10}>
+          <Grid item xs={6}>
             <Typography
               type="title"
               color="inherit"
-              variant="h4"
+              variant="h6"
               className={classes.title}
               gutterBottom
             >
@@ -31,17 +33,49 @@ const App = () => {
             </Typography>
           </Grid>
 
+          <Grid item xs={1.5}>
+            <div>
+              <Button
+                style={{ color: "white", textTransform: "none" }}
+                variant="outline-dark"
+                align="right"
+              >
+                For Business
+              </Button>
+            </div>
+          </Grid>
           <Grid item xs={1}>
             <div>
-              <Button variant="outline-dark" align="right">
-                Sign In
+              <Button
+                style={{ color: "white", textTransform: "none" }}
+                variant="outline-dark"
+                align="right"
+              >
+                About Us
+              </Button>
+            </div>
+          </Grid>
+          <Grid item xs={1}>
+            <div>
+              <Button
+                style={{
+                  color: "blue",
+                  borderWidth: 1,
+                  border: "2px solid",
+                  borderColor: "blue",
+                  textTransform: "none",
+                  width: "100px",
+                  borderRadius: "999px 999px 999px 999px",
+                }}
+                variant="outline-dark"
+                align="right"
+              >
+                Login
               </Button>
             </div>
           </Grid>
         </Grid>
-      </header>
-
-      <div className={classes.div1}>lol</div>
+      </div>
 
       <div className={classes.div2}>lol2</div>
       <div className={classes.div3}>lol2</div>

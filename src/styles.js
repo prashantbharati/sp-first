@@ -1,6 +1,14 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles((theme) => ({
+  image: {
+    marginRight: "15px",
+  },
+
+  title: {
+    fontWeight: "bold",
+    color: "white",
+  },
   div1: {
     backgroundColor: "black",
     height: "100vh",
