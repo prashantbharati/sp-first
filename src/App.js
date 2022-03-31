@@ -1,5 +1,7 @@
 import React from "react";
-import Home from "./home";
+// import Home from "./home";
+import { Typography, Button, Grid } from "@material-ui/core";
+import memories from "./images/memories.png";
 import useStyles from "./styles";
 const App = () => {
   const classes = useStyles();
