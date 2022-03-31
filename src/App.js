@@ -11,7 +11,7 @@ const App = () => {
       <div className={classes.div1}>
         <br />
         <br />
-        <Grid container spacing={12}>
+        <Grid style={{ margin: "20px" }} container spacing={12}>
           <Grid item={1}>
             <img
               className={classes.image}
@@ -72,16 +72,18 @@ const App = () => {
               Login
             </Button>
           </Grid>
-          <Grid item xs={1}>
+          <Grid item xs={1.5}>
             <Button
               style={{
-                color: "blue",
+                color: "white",
                 borderWidth: 1,
                 border: "2px solid",
                 borderColor: "blue",
                 textTransform: "none",
-                width: "100px",
+                width: "150px",
                 borderRadius: "999px 999px 999px 999px",
+                textAlign: "center",
+                backgroundColor: "blue",
               }}
               variant="contained"
               align="right"
