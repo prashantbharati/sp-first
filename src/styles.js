@@ -9,6 +9,10 @@ export default makeStyles((theme) => ({
     fontWeight: "bold",
     color: "white",
   },
+  navfirst: {
+    boxSizing: "border-box",
+    marginRight: "1000px",
+  },
   div1: {
     backgroundColor: "black",
     height: "100vh",

@@ -11,7 +11,7 @@ const App = () => {
       <div className={classes.div1}>
         <br />
         <br />
-        <Grid style={{ margin: "0px" }} container spacing={12}>
+        <Grid className={classes.navfirst} container spacing={12}>
           <Grid item={1}>
             <img
               className={classes.image}
