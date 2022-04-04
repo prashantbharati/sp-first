@@ -1,5 +1,6 @@
 import { makeStyles } from "@material-ui/core/styles";
-
+import roofimg1 from "./images/roofimg1.jpg";
+import mountain from "./images/mountain.jpg";
 export default makeStyles((theme) => ({
   image: {
     // marginRight: "15px",
@@ -16,10 +17,12 @@ export default makeStyles((theme) => ({
   div1: {
     backgroundColor: "black",
     height: "100vh",
+    backgroundImage: `url(${roofimg1})`,
   },
   div2: {
     backgroundColor: "red",
     height: "40vh",
+    backgroundImage: `url(${mountain})`,
   },
   div3: {
     backgroundColor: "orange",
