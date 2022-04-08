@@ -35,9 +35,10 @@ export default makeStyles((theme) => ({
     height: "40vh",
   },
   div3: {
-    height: "100vh",
+    height: "95vh",
     backgroundImage: `url('${segment3}')`,
-    backgroundSize: "cover",
+    backgroundSize: "contain",
+    // backgroundRepeat: "no-repeat",
   },
   div4: {
     backgroundColor: "pink",
@@ -61,6 +62,7 @@ export default makeStyles((theme) => ({
     backgroundColor: "blue",
     height: "75vh",
     backgroundImage: `url('${segment6}')`,
+    backgroundSize: "contain",
   },
   div8: {
     backgroundColor: "green",
