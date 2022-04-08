@@ -27,6 +27,8 @@ export default makeStyles((theme) => ({
     height: "100vh",
 
     backgroundImage: `url('${segment2}')`,
+    backgroundSize: "contain",
+    backgroundRepeat: "y-repeat",
   },
   div2: {
     // backgroundColor: "red",
