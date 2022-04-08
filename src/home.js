@@ -157,16 +157,47 @@ const Home = () => {
 
       <div className={classes.div2}>
         <Grid container>
-          <Grid item md={6}>
-            <Typography>Your trust matters the most</Typography>
+          <Grid item md={7}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center",
+                height: "100%",
+              }}
+            >
+              <Typography
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "30px",
+                }}
+              >
+                Your trust matters the most
+              </Typography>
+
+              <Typography
+                style={{
+                  color: "grey",
+                  // fontWeight: "bold",
+                  fontSize: "15px",
+                }}
+              >
+                With skropay your money and data is in safe hand
+              </Typography>
+            </div>
           </Grid>
 
-          <Grid item md={3}>
+          <Grid item md={2.5}>
             <img src={razorpay} alt="razorpay" height="200" />
           </Grid>
-          <br />
-          <Grid item md={3}>
-            <img src={aws} alt="memories" height="150" />
+
+          <Grid item md={2.5}>
+            <br />
+            <br />
+
+            <img src={aws} alt="memories" height="130" />
           </Grid>
         </Grid>
       </div>
