@@ -429,7 +429,52 @@ const Home = () => {
         </Grid>
       </div>
 
-      <div className={classes.div8}>lol2</div>
+      <div className={classes.div8}>
+        <Grid container>
+          <Grid item md={6}></Grid>
+
+          <Grid item md={6}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                // textAlign: "center",
+                height: "250%",
+              }}
+            >
+              <div
+                style={{
+                  width: "80%",
+                }}
+              >
+                <Typography
+                  style={{
+                    color: "black",
+                    fontWeight: "bold",
+                    fontSize: "60px",
+                  }}
+                >
+                  More power to you
+                </Typography>
+                <br />
+                <br />
+                <Typography
+                  style={{
+                    color: "black",
+                    // fontWeight: "bold",
+                    fontSize: "15px",
+                  }}
+                >
+                  Release the funds only after you get the product you ordered
+                  from the buyer
+                </Typography>
+              </div>
+            </div>
+          </Grid>
+        </Grid>
+      </div>
       <div className={classes.div9}>lol2</div>
       <div className={classes.footer}>lol2</div>
     </>
