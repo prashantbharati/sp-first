@@ -247,7 +247,53 @@ const Home = () => {
         </Grid>
       </div>
 
-      <div className={classes.div4}>lol2</div>
+      <div className={classes.div4}>
+        <Grid container>
+          <Grid item md={6}></Grid>
+
+          <Grid item md={6}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                // textAlign: "center",
+                height: "120%",
+              }}
+            >
+              <div
+                style={{
+                  width: "80%",
+                }}
+              >
+                <Typography
+                  style={{
+                    color: "black",
+                    fontWeight: "bold",
+                    fontSize: "60px",
+                  }}
+                >
+                  Revolutionizing online payments and putting you first.
+                </Typography>
+                <br />
+                <Typography
+                  style={{
+                    color: "grey",
+                    // fontWeight: "bold",
+                    fontSize: "15px",
+                  }}
+                >
+                  We keep your money safe with us in our protected e wallets so
+                  you have the choice to make secure transactions without
+                  worrying about anything else
+                </Typography>
+              </div>
+            </div>
+          </Grid>
+        </Grid>
+      </div>
+
       <div className={classes.div5}>lol2</div>
       <div className={classes.div6}>lol2</div>
       <div className={classes.div7}>lol2</div>
