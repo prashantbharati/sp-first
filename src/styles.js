@@ -104,6 +104,6 @@ export default makeStyles((theme) => ({
   },
   footer: {
     backgroundColor: "black",
-    height: "10vh",
+    height: "15vh",
   },
 }));

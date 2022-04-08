@@ -522,6 +522,52 @@ const Home = () => {
         </Grid>
       </div>
 
+      <div
+        style={{
+          height: "85vh",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+        }}
+      >
+        <div
+          style={{
+            width: "80%",
+          }}
+        >
+          <Typography
+            style={{
+              color: "black",
+              fontWeight: "bold",
+              fontSize: "50px",
+            }}
+          >
+            Say hello to a whole new world of scam free and non fraudulent
+            transactions when you pay with Skropay
+          </Typography>
+        </div>
+
+        <br />
+        <div
+          style={{
+            width: "80%",
+          }}
+        >
+          <Typography
+            style={{
+              color: "grey",
+            }}
+          >
+            Skropay is meant to introduce and promote a new type of payment
+            system to the people. We will make digital transactions more secure
+            and reliable by safeguarding your money in our wallets until your
+            order/product is delivered to you.
+          </Typography>
+        </div>
+      </div>
+
       <div className={classes.footer}>lol2</div>
     </>
   );
