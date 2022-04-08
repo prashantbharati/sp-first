@@ -1,6 +1,8 @@
 import React from "react";
 import { Typography, Button, Grid } from "@material-ui/core";
 import memories from "./images/memories.png";
+import razorpay from "./images/razorpayimg.webp";
+import aws from "./images/awsimg.png";
 import useStyles from "./styles";
 const Home = () => {
   const classes = useStyles();
@@ -153,7 +155,22 @@ const Home = () => {
         </div>
       </div>
 
-      <div className={classes.div2}>lol2</div>
+      <div className={classes.div2}>
+        <Grid container>
+          <Grid item md={6}>
+            <Typography>Your trust matters the most</Typography>
+          </Grid>
+
+          <Grid item md={3}>
+            <img src={razorpay} alt="razorpay" height="200" />
+          </Grid>
+          <br />
+          <Grid item md={3}>
+            <img src={aws} alt="memories" height="150" />
+          </Grid>
+        </Grid>
+      </div>
+
       <div className={classes.div3}>lol2</div>
       <div className={classes.div4}>lol2</div>
       <div className={classes.div5}>lol2</div>

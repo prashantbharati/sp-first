@@ -55,6 +55,9 @@ export default makeStyles((theme) => ({
   div2: {
     // backgroundColor: "red",
     height: "40vh",
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
   },
   div3: {
     height: "95vh",
