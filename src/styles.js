@@ -68,11 +68,14 @@ export default makeStyles((theme) => ({
     backgroundColor: "green",
     height: "75vh",
     backgroundImage: `url('${segment7}')`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
   },
   div9: {
     backgroundColor: "yellow",
     height: "75vh",
     backgroundImage: `url('${segment8}')`,
+    backgroundSize: "contain",
   },
   footer: {
     backgroundColor: "black",
