@@ -475,7 +475,53 @@ const Home = () => {
           </Grid>
         </Grid>
       </div>
-      <div className={classes.div9}>lol2</div>
+
+      <div className={classes.div9}>
+        <Grid container>
+          <Grid item md={6}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                // textAlign: "center",
+                height: "350%",
+                width: "80%",
+              }}
+            >
+              <div
+                style={{
+                  width: "80%",
+                }}
+              >
+                <Typography
+                  style={{
+                    color: "white",
+                    fontWeight: "bold",
+                    fontSize: "60px",
+                  }}
+                >
+                  Shake and pay
+                </Typography>
+                <br />
+                <br />
+                <Typography
+                  style={{
+                    color: "grey",
+                    // fontWeight: "bold",
+                    fontSize: "15px",
+                  }}
+                >
+                  Negotiate a price in chats and transfer funds using your
+                  Skropay wallet
+                </Typography>
+              </div>
+            </div>
+          </Grid>
+        </Grid>
+      </div>
+
       <div className={classes.footer}>lol2</div>
     </>
   );
