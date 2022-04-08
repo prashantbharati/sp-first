@@ -20,7 +20,7 @@ export default makeStyles((theme) => ({
   },
   navfirst: {
     boxSizing: "border-box",
-    marginRight: "1000px",
+    // marginRight: "1000px",
   },
   div1: {
     // backgroundColor: "black",
@@ -30,6 +30,26 @@ export default makeStyles((theme) => ({
     backgroundSize: "contain",
     backgroundRepeat: "y-repeat",
   },
+
+  div11: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    textAlign: "center",
+  },
+
+  div1text: {
+    color: "white",
+    // display: "flex",
+    // flex: "1 1 0",
+    // justifyContent: "center",
+    // textAlign: "center",
+    // alignItems: "center",
+    // alignText: "center",
+    fontWeight: "700",
+    fontSize: "90px",
+  },
+
   div2: {
     // backgroundColor: "red",
     height: "40vh",
@@ -53,27 +73,27 @@ export default makeStyles((theme) => ({
   },
   div6: {
     backgroundColor: "grey",
-    height: "85vh",
+    height: "100vh",
     backgroundImage: `url('${segment1}')`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
   },
   div7: {
     backgroundColor: "blue",
-    height: "75vh",
+    height: "100vh",
     backgroundImage: `url('${segment6}')`,
     backgroundSize: "contain",
   },
   div8: {
     backgroundColor: "green",
-    height: "75vh",
+    height: "100vh",
     backgroundImage: `url('${segment7}')`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
   },
   div9: {
     backgroundColor: "yellow",
-    height: "75vh",
+    height: "100vh",
     backgroundImage: `url('${segment8}')`,
     backgroundSize: "contain",
   },

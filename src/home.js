@@ -8,53 +8,130 @@ const Home = () => {
   return (
     <>
       <div className={classes.div1}>
+        {/* <br />
+        <br /> */}
+        {/* <header>
+          <Grid className={classes.navfirst} container spacing={12}>
+            <Grid item={1}>
+              <img
+                className={classes.image}
+                src={memories}
+                alt="memories"
+                height="60"
+              />
+            </Grid>
+
+            <Grid item xs={6}>
+              <Typography
+                type="title"
+                color="inherit"
+                variant="h6"
+                className={classes.title}
+                gutterBottom
+              >
+                ProjectsHub
+              </Typography>
+            </Grid>
+
+            <Grid item xs={1.5}>
+              <div>
+                <Button
+                  style={{ color: "white", textTransform: "none" }}
+                  variant="outline-dark"
+                  align="right"
+                >
+                  For Business
+                </Button>
+              </div>
+            </Grid>
+            <Grid item xs={1}>
+              <div>
+                <Button
+                  style={{ color: "white", textTransform: "none" }}
+                  variant="outline-dark"
+                  align="right"
+                >
+                  About Us
+                </Button>
+              </div>
+            </Grid>
+            <Grid item xs={1}>
+              <Button
+                style={{
+                  color: "blue",
+                  borderWidth: 1,
+                  border: "2px solid",
+                  borderColor: "blue",
+                  textTransform: "none",
+                  width: "100px",
+                  borderRadius: "999px 999px 999px 999px",
+                }}
+                variant="outline-dark"
+                align="right"
+              >
+                Login
+              </Button>
+            </Grid>
+            <Grid item xs={1.5}>
+              <Button
+                style={{
+                  color: "white",
+                  borderWidth: 1,
+                  border: "2px solid",
+                  borderColor: "blue",
+                  textTransform: "none",
+                  width: "150px",
+                  borderRadius: "999px 999px 999px 999px",
+                  textAlign: "center",
+                  backgroundColor: "blue",
+                }}
+                variant="contained"
+                align="right"
+              >
+                Join Scropay
+              </Button>
+            </Grid>
+          </Grid>
+        </header> */}
         <br />
-        <br />
-        <Grid className={classes.navfirst} container spacing={12}>
-          <Grid item={1}>
+
+        <Grid container spacing={2}>
+          <Grid item></Grid>
+
+          <Grid item>
             <img
-              className={classes.image}
+              // className={classes.image}
               src={memories}
               alt="memories"
               height="60"
             />
           </Grid>
 
-          <Grid item xs={6}>
-            <Typography
-              type="title"
-              color="inherit"
-              variant="h6"
-              className={classes.title}
-              gutterBottom
-            >
-              ProjectsHub
-            </Typography>
+          <Grid item md={6}>
+            <Typography style={{ color: "white" }}>Scropay</Typography>
           </Grid>
 
-          <Grid item xs={1.5}>
-            <div>
-              <Button
-                style={{ color: "white", textTransform: "none" }}
-                variant="outline-dark"
-                align="right"
-              >
-                For Business
-              </Button>
-            </div>
+          <Grid item>
+            <Button
+              style={{ color: "white", textTransform: "none" }}
+              variant="outline-dark"
+              align="right"
+            >
+              For Business
+            </Button>
           </Grid>
-          <Grid item xs={1}>
-            <div>
-              <Button
-                style={{ color: "white", textTransform: "none" }}
-                variant="outline-dark"
-                align="right"
-              >
-                About Us
-              </Button>
-            </div>
+
+          <Grid item>
+            <Button
+              style={{ color: "white", textTransform: "none" }}
+              variant="outline-dark"
+              align="right"
+            >
+              About Us
+            </Button>
           </Grid>
-          <Grid item xs={1}>
+
+          <Grid item>
             <Button
               style={{
                 color: "blue",
@@ -62,7 +139,7 @@ const Home = () => {
                 border: "2px solid",
                 borderColor: "blue",
                 textTransform: "none",
-                width: "100px",
+                width: "120px",
                 borderRadius: "999px 999px 999px 999px",
               }}
               variant="outline-dark"
@@ -71,7 +148,8 @@ const Home = () => {
               Login
             </Button>
           </Grid>
-          <Grid item xs={1.5}>
+
+          <Grid item>
             <Button
               style={{
                 color: "white",
@@ -91,6 +169,13 @@ const Home = () => {
             </Button>
           </Grid>
         </Grid>
+
+        <div className={classes.div11}>
+          <Typography className={classes.div1text}>
+            Never Pay Without Using Scropay
+          </Typography>
+        </div>
+        {/* <Typography className={classes.div1text}>Using Srcopay</Typography> */}
       </div>
 
       <div className={classes.div2}>lol2</div>
