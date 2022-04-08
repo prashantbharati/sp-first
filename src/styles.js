@@ -23,19 +23,19 @@ export default makeStyles((theme) => ({
     marginRight: "1000px",
   },
   div1: {
-    backgroundColor: "black",
+    // backgroundColor: "black",
     height: "100vh",
-    // backgroundImage: `url(${})`,
+
     backgroundImage: `url('${segment2}')`,
   },
   div2: {
-    backgroundColor: "red",
+    // backgroundColor: "red",
     height: "40vh",
   },
   div3: {
-    // backgroundColor: "orange",
     height: "100vh",
     backgroundImage: `url('${segment3}')`,
+    backgroundSize: "cover",
   },
   div4: {
     backgroundColor: "pink",
@@ -44,13 +44,16 @@ export default makeStyles((theme) => ({
   },
   div5: {
     backgroundColor: "violet",
-    height: "75vh",
+    height: "100vh",
     backgroundImage: `url('${segment5}')`,
+    backgroundSize: "contain",
   },
   div6: {
     backgroundColor: "grey",
-    height: "75vh",
+    height: "85vh",
     backgroundImage: `url('${segment1}')`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
   },
   div7: {
     backgroundColor: "blue",
