@@ -202,7 +202,51 @@ const Home = () => {
         </Grid>
       </div>
 
-      <div className={classes.div3}>lol2</div>
+      <div className={classes.div3}>
+        <Grid container>
+          <Grid item md={6}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                // textAlign: "center",
+                height: "120%",
+              }}
+            >
+              <div
+                style={{
+                  width: "80%",
+                }}
+              >
+                <Typography
+                  style={{
+                    color: "white",
+                    fontWeight: "bold",
+                    fontSize: "60px",
+                  }}
+                >
+                  Stay Carefree,Never worry about frauds
+                </Typography>
+
+                <Typography
+                  style={{
+                    color: "grey",
+                    // fontWeight: "bold",
+                    fontSize: "15px",
+                  }}
+                >
+                  With Skropay accounts, your funds are transferred to the
+                  seller only after we make sure you received your product
+                  eliminating fraudulent transactions
+                </Typography>
+              </div>
+            </div>
+          </Grid>
+        </Grid>
+      </div>
+
       <div className={classes.div4}>lol2</div>
       <div className={classes.div5}>lol2</div>
       <div className={classes.div6}>lol2</div>
