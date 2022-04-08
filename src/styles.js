@@ -32,7 +32,9 @@ export default makeStyles((theme) => ({
   },
 
   div11: {
+    width: "70%",
     display: "flex",
+    flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
     textAlign: "center",
