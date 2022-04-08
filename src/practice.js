@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Button, Grid } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 const practice = () => {
   return (
     <Grid container spacing={4}>
