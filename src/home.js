@@ -294,8 +294,97 @@ const Home = () => {
         </Grid>
       </div>
 
-      <div className={classes.div5}>lol2</div>
-      <div className={classes.div6}>lol2</div>
+      <div className={classes.div5}>
+        <Grid container>
+          <Grid item md={6}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                // textAlign: "center",
+                height: "200%",
+              }}
+            >
+              <div
+                style={{
+                  width: "80%",
+                }}
+              >
+                <Typography
+                  style={{
+                    color: "white",
+                    fontWeight: "bold",
+                    fontSize: "60px",
+                  }}
+                >
+                  Your Security is our First Priority
+                </Typography>
+                <br />
+                <br />
+
+                <Typography
+                  style={{
+                    color: "grey",
+                    // fontWeight: "bold",
+                    fontSize: "15px",
+                  }}
+                >
+                  we leave no stone unturned to keep your money safe with us
+                  when you use our services
+                </Typography>
+              </div>
+            </div>
+          </Grid>
+        </Grid>
+      </div>
+
+      <div className={classes.div6}>
+        <Grid container>
+          <Grid item md={6}></Grid>
+
+          <Grid item md={6}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                // textAlign: "center",
+                height: "500%",
+              }}
+            >
+              <div
+                style={{
+                  width: "80%",
+                }}
+              >
+                <Typography
+                  style={{
+                    color: "black",
+                    fontWeight: "bold",
+                    fontSize: "60px",
+                  }}
+                >
+                  Name the price
+                </Typography>
+                <br />
+                <Typography
+                  style={{
+                    color: "grey",
+                    // fontWeight: "bold",
+                    fontSize: "15px",
+                  }}
+                >
+                  Using Skropay find the buyer of your choice
+                </Typography>
+              </div>
+            </div>
+          </Grid>
+        </Grid>
+      </div>
+
       <div className={classes.div7}>lol2</div>
       <div className={classes.div8}>lol2</div>
       <div className={classes.div9}>lol2</div>
