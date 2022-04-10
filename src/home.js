@@ -20,7 +20,11 @@ const Home = () => {
           </Grid>
 
           <Grid item md={6}>
-            <Typography style={{ color: "white" }}>Scropay</Typography>
+            <Typography
+              style={{ color: "white", fontWeight: "bold", fontSize: "25px" }}
+            >
+              Skropay
+            </Typography>
           </Grid>
 
           <Grid item>
@@ -46,10 +50,13 @@ const Home = () => {
           <Grid item>
             <Button
               style={{
-                color: "blue",
+                color: "#00FFC6",
                 borderWidth: 1,
                 border: "2px solid",
-                borderColor: "blue",
+                // borderImage:
+                // "linear-gradient(to right,#4D96FF, #00FFC6) 1 border-box",
+                // borderImageSlice: "1",
+                borderColor: "#4D96FF",
                 textTransform: "none",
                 width: "120px",
                 borderRadius: "999px 999px 999px 999px",
@@ -67,17 +74,20 @@ const Home = () => {
                 color: "white",
                 borderWidth: 1,
                 border: "2px solid",
-                borderColor: "blue",
+                borderImage:
+                  "linear-gradient( to bottom right,#4D96FF, #00FFC6)",
                 textTransform: "none",
-                width: "150px",
+                width: "170px",
                 borderRadius: "999px 999px 999px 999px",
                 textAlign: "center",
-                backgroundColor: "linear-gradient(red, yellow)",
+                backgroundImage: "linear-gradient( to right,#4D96FF, #00FFC6)",
               }}
               variant="contained"
               align="right"
             >
-              Join Scropay
+              {/* 4D96FF */}
+              {/* 00FFC6 */}
+              Join Skropay
             </Button>
           </Grid>
         </Grid>
@@ -95,7 +105,7 @@ const Home = () => {
         >
           <div className={classes.div11}>
             <Typography className={classes.div1text}>
-              Never Pay Without Using Scropay
+              Never Pay Without Using Skropay
             </Typography>
 
             <br />
