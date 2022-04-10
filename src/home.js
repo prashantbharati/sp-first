@@ -72,7 +72,7 @@ const Home = () => {
                 width: "150px",
                 borderRadius: "999px 999px 999px 999px",
                 textAlign: "center",
-                backgroundColor: "blue",
+                backgroundColor: "linear-gradient(red, yellow)",
               }}
               variant="contained"
               align="right"
@@ -372,7 +372,7 @@ const Home = () => {
                 <br />
                 <Typography
                   style={{
-                    color: "grey",
+                    color: "black",
                     // fontWeight: "bold",
                     fontSize: "15px",
                   }}
